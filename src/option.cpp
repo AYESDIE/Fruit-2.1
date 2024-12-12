@@ -24,11 +24,11 @@ struct option_t {
 
 static option_t Option[] = {
 
-   { "Hash", true, "16", "spin", "min 4 max 1024", NULL },
+   { "Hash", true, "4", "spin", "min 4 max 1024", NULL },
 
    { "Ponder", true, "false", "check", "", NULL },
 
-   { "OwnBook",  true, "true",           "check",  "", NULL },
+   { "OwnBook",  true, "false",          "check",  "", NULL },
    { "BookFile", true, "book_small.bin", "string", "", NULL },
 
    { "NullMove Pruning",       true, "Fail High", "combo", "var Always var Fail High var Never", NULL },
