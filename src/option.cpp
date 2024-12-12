@@ -37,7 +37,7 @@ static option_t Option[] = {
    { "Verification Reduction", true, "5",         "spin",  "min 1 max 6", NULL },
 
    { "History Pruning",     true, "true", "check", "", NULL },
-   { "History Threshold",   true, "60",   "spin",  "min 0 max 100", NULL },
+   { "History Threshold",   true, "30",   "spin",  "min 0 max 100", NULL },
 
    { "Futility Pruning", true, "false", "check", "", NULL },
    { "Futility Margin",  true, "100",   "spin",  "min 0 max 500", NULL },
